@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Title from "./Title";
 import Body from "./Body";
+import Coba from "./Coba";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Title />
         <Body />
+        <Coba />
+        <chatBox />
       </header>
     </div>
   );
